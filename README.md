@@ -1,1 +1,1 @@
-# lightning-stencil
+# Lightning Stencil
