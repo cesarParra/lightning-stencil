@@ -136,7 +136,7 @@ import { LightningElement, track } from 'lwc';
 import userProfileStencil from './userProfileStencil.html';
 import userProfile from './userProfile.html';
 
-export default class StencilContainer extends LightningElement {
+export default class UserProfile extends LightningElement {
   @track isLoading = true;
 
   render() {
