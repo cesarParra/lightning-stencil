@@ -1,0 +1,27 @@
+{
+  "name": "lightning-stencil",
+  "version": "1.0.0",
+  "description": "Make your components feel faster by using building stencil (skeleton) that closely match your component's final output",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test:unit": "sfdx-lwc-jest",
+    "test:unit:watch": "sfdx-lwc-jest --watch",
+    "test:unit:debug": "sfdx-lwc-jest --debug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesarParra/lightning-stencil.git"
+  },
+  "author": "Cesar Parra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cesarParra/lightning-stencil/issues"
+  },
+  "homepage": "https://github.com/cesarParra/lightning-stencil#readme",
+  "devDependencies": {
+    "@salesforce/sfdx-lwc-jest": "^0.7.0"
+  }
+}

@@ -1,14 +1,48 @@
 import { LightningElement, api } from 'lwc';
 
+/**
+ * Stencil class for `c-stencil` component.
+ * @extends {LightningElement}
+ */
 export default class Stencil extends LightningElement {
+  /**
+   * The height to set on the stencil to rendered.
+   * @type {number}
+   * @access public
+   * @default 10
+   */
   @api height = 10;
 
+  /**
+   * The width to set on the stencil to render.
+   * @type {number}
+   * @access public
+   */
   @api width;
 
+  /**
+   * Whether the stencil should render with a circular shape.
+   * @type {boolean}
+   * @access public
+   * @default false
+   */
   @api circle = false;
 
+  /**
+   * The amount of stencil containers to create.
+   * @type {number}
+   * @access public
+   * @default 1
+   */
   @api count = 1;
 
+  /**
+   * The shade in which the stencil will be rendered.
+   * Possible values are `light`, `medium` or `dark`.
+   * @type {string}
+   * @access public
+   * @default medium
+   */
   @api weightVariant = 'medium';
 
   get containerStyle() {
