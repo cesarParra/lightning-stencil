@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/cesarParra/lightning-stencil#readme",
   "devDependencies": {
-    "@salesforce/sfdx-lwc-jest": "^0.7.0"
+    "@salesforce/sfdx-lwc-jest": "^1.2.1"
   }
 }
